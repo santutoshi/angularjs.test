@@ -1,2 +1,1 @@
-# angularjs.test
-test for Angularjs 
+index.html
