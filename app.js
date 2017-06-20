@@ -5,6 +5,9 @@
 
 	.controller('MyFristController', function($scope){
  		$scope.name="santos";
+ 		$scope.sayHello= function(){
+ 			return "Hello Coursera";
+ 		};
 	});
 })();
 
