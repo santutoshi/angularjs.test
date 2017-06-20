@@ -1,4 +1,17 @@
-var student ={
+(function(){
+	'use strict';
+    
+	angular.module('myFristApp', [])
+
+	.controller('MyFristController', function($scope){
+ 		$scope.name="santos";
+	});
+})();
+
+
+
+
+/*var student ={
 	name: "", 
 	type: "student"
 };
@@ -23,4 +36,4 @@ function calculateNumericOutput(){
 	//Insert result into page
 	var output ="total Numeric value of the person's name is " + totalNameValue;
 	document.getElementById('output').innerText =output;
-}
+}*/

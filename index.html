@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myFristApp">
 <head>
 	<meta charset="utf-8">
+	<script src="angular.min.js "></script>
 	<script src="app.js "></script>
-	<style>body {font-size: 1.5em;}</style>	
-	<title>Hello Angular</title>
+	<title>Frist Angular App</title>
 </head>
 <body>
-<h1>low cohesion and tight couplig</h1>
-<div id="nameCalculator"></div>
-<div>
-	Your Name: <input type="text" id="name">
+<h1>My Frist Angularjs App</h1>
+<div ng-controller="MyFristController">
+	{{name}}
 </div>
-<div id="output"></div>
 </body>
 </html>
